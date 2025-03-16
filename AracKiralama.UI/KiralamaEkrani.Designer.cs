@@ -46,7 +46,7 @@
             cmbAracSecimi.CausesValidation = false;
             cmbAracSecimi.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbAracSecimi.FormattingEnabled = true;
-            cmbAracSecimi.Location = new Point(201, 51);
+            cmbAracSecimi.Location = new Point(211, 111);
             cmbAracSecimi.Name = "cmbAracSecimi";
             cmbAracSecimi.Size = new Size(151, 28);
             cmbAracSecimi.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // txtGunSayisi
             // 
-            txtGunSayisi.Location = new Point(201, 103);
+            txtGunSayisi.Location = new Point(211, 163);
             txtGunSayisi.Name = "txtGunSayisi";
             txtGunSayisi.Size = new Size(151, 27);
             txtGunSayisi.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(140, 51);
+            label1.Location = new Point(150, 111);
             label1.Name = "label1";
             label1.Size = new Size(42, 20);
             label1.TabIndex = 2;
@@ -71,7 +71,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(32, 106);
+            label2.Location = new Point(42, 166);
             label2.Name = "label2";
             label2.Size = new Size(150, 20);
             label2.TabIndex = 5;
@@ -80,7 +80,7 @@
             // lblModel
             // 
             lblModel.AutoSize = true;
-            lblModel.Location = new Point(394, 49);
+            lblModel.Location = new Point(404, 109);
             lblModel.Name = "lblModel";
             lblModel.Size = new Size(55, 20);
             lblModel.TabIndex = 6;
@@ -89,7 +89,7 @@
             // lblMarka
             // 
             lblMarka.AutoSize = true;
-            lblMarka.Location = new Point(394, 86);
+            lblMarka.Location = new Point(404, 146);
             lblMarka.Name = "lblMarka";
             lblMarka.Size = new Size(53, 20);
             lblMarka.TabIndex = 6;
@@ -98,7 +98,7 @@
             // lblRenk
             // 
             lblRenk.AutoSize = true;
-            lblRenk.Location = new Point(394, 120);
+            lblRenk.Location = new Point(404, 180);
             lblRenk.Name = "lblRenk";
             lblRenk.Size = new Size(44, 20);
             lblRenk.TabIndex = 6;
@@ -107,7 +107,7 @@
             // lblGunlukUcret
             // 
             lblGunlukUcret.AutoSize = true;
-            lblGunlukUcret.Location = new Point(394, 157);
+            lblGunlukUcret.Location = new Point(404, 217);
             lblGunlukUcret.Name = "lblGunlukUcret";
             lblGunlukUcret.Size = new Size(96, 20);
             lblGunlukUcret.TabIndex = 6;
@@ -116,7 +116,7 @@
             // lblToplamUcret
             // 
             lblToplamUcret.AutoSize = true;
-            lblToplamUcret.Location = new Point(394, 197);
+            lblToplamUcret.Location = new Point(404, 257);
             lblToplamUcret.Name = "lblToplamUcret";
             lblToplamUcret.Size = new Size(187, 20);
             lblToplamUcret.TabIndex = 6;
@@ -124,7 +124,7 @@
             // 
             // btnKirala
             // 
-            btnKirala.Location = new Point(201, 193);
+            btnKirala.Location = new Point(211, 253);
             btnKirala.Name = "btnKirala";
             btnKirala.Size = new Size(151, 29);
             btnKirala.TabIndex = 7;
@@ -135,7 +135,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(520, 9);
+            label3.Location = new Point(530, 69);
             label3.Name = "label3";
             label3.Size = new Size(142, 20);
             label3.TabIndex = 8;
@@ -147,7 +147,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnablePreventFocusChange;
             CausesValidation = false;
-            ClientSize = new Size(800, 250);
+            ClientSize = new Size(823, 303);
             Controls.Add(label3);
             Controls.Add(btnKirala);
             Controls.Add(lblToplamUcret);

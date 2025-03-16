@@ -1,8 +1,9 @@
 using AracKiralama.UI.Models;
+using MaterialSkin.Controls;
 
 namespace AracKiralama.UI
 {
-    public partial class KiralamaEkrani : Form
+    public partial class KiralamaEkrani : MaterialForm
     {
         private List<Araba> arabalar = new();
         public KiralamaEkrani()
