@@ -2,6 +2,7 @@ using AracSimulasyonu.UI.Core;
 using AracSimulasyonu.UI.Enums;
 using AracSimulasyonu.UI.Interfaces;
 using MaterialSkin.Controls;
+using MaterialSkin;
 
 namespace AracSimulasyonu.UI
 {
@@ -13,6 +14,15 @@ namespace AracSimulasyonu.UI
         public KiralamaEkrani()
         {
             InitializeComponent();
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.DARK; 
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Teal500,      
+                Primary.Teal700,    
+                Primary.Teal200,      
+                Accent.Orange400,     
+                TextShade.WHITE);     
         }
 
         private void KiralamaEkrani_Load(object sender, EventArgs e)

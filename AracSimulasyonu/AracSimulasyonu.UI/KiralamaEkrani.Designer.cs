@@ -77,7 +77,7 @@
             cmbAraclar.MaxDropDownItems = 4;
             cmbAraclar.MouseState = MaterialSkin.MouseState.OUT;
             cmbAraclar.Name = "cmbAraclar";
-            cmbAraclar.Size = new Size(408, 49);
+            cmbAraclar.Size = new Size(563, 49);
             cmbAraclar.StartIndex = 0;
             cmbAraclar.TabIndex = 7;
             // 
